@@ -12,6 +12,7 @@ body{
      overflow: hidden;
      height: 100vh;
      overflow: hidden;
+     margin:0;
      }
      .container{
         display: flex;
@@ -43,7 +44,8 @@ body{
         flex: 5;
      }
      .panel.active h3{
-        opacity:1
+        opacity:1;
+        transition: oppacity 0.3s ease-in 0.4s;
      }
 
      @media (max-width:500px){
